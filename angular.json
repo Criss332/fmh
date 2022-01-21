@@ -3,7 +3,7 @@
     "cli": {
         "analytics": false
     },
-    "version": 1,
+    "version": 1.1,
     "newProjectRoot": "projects",
     "projects": {
         "fmh": {
