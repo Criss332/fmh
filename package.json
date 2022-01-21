@@ -6,7 +6,8 @@
         "start": "ng serve",
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
-        "test": "ng test"
+        "test": "ng test",
+        "start-pwa": "ng build --prod --base-href=/ && http-server -p 8080 -c-1 dist/fmh"
     },
     "private": true,
     "dependencies": {
