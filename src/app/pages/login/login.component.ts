@@ -4,7 +4,7 @@ import { AuthService } from '../../_services/auth.service';
 import { TokenStorageService } from '../../_services/token-storage.service';
 
 @Component({
-  selector: 'app-login', 
+  selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
@@ -20,13 +20,13 @@ export class LoginComponent implements OnInit {
   });
 
   isLoggedIn = false;
-  isLoginFailed = false; 
+  isLoginFailed = false;
   errorMessage = '';
-  roles: string[] = []; 
+  roles: string[] = [];
   primengConfig: any;
 
   constructor(private formBuilder: FormBuilder, private authService: AuthService, private tokenStorage: TokenStorageService) { }
-   
+
   ngOnInit(): void {
     this.buildForm();
     if (this.tokenStorage.getToken()) {
@@ -42,12 +42,12 @@ export class LoginComponent implements OnInit {
       next: data => {
         this.tokenStorage.saveToken(data.accessToken);
         this.tokenStorage.saveUser(data);
-      
+
         this.isLoginFailed = false;
         this.isLoggedIn = true;
         this.roles = this.tokenStorage.getUser().roles;
         this.reloadPage();
-      }, 
+      },
       error: err => {
         this.errorMessage = err.error.message;
         this.isLoginFailed = true;
@@ -66,7 +66,7 @@ export class LoginComponent implements OnInit {
   unsplashClass(): any {
     return {
       'min-height': '100%',
-      // Imagenes random segun la variable que se le asigno en styleImage 
+      // Imagenes random segun la variable que se le asigno en styleImage
       background: `url("https://source.unsplash.com/random/1200x900?"${this.styleImage}) no-repeat center center`,
       'background-size': 'cover',
       position: 'relative',
