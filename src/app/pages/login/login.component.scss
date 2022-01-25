@@ -38,7 +38,7 @@
     left: 0;
     height: 80vh;
     width: 100%;
-    background-color: rgba(225, 7, 7, 0.15);
+    background-color: rgba(247, 244, 244, 0.15);
 }
 
 .login-aside-hr {
@@ -84,5 +84,8 @@
     }
     #card-img {
         display: none !important;
+    }
+    .container-fluid {
+        max-height: 900px;
     }
 }
