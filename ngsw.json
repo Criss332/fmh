@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "timestamp": 1643149219773,
+  "index": "https://criss332.github.io/fmh/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://criss332.github.io/fmh/favicon.ico",
+        "https://criss332.github.io/fmh/index.html",
+        "https://criss332.github.io/fmh/main.1876883f845acc03.js",
+        "https://criss332.github.io/fmh/manifest.webmanifest",
+        "https://criss332.github.io/fmh/polyfills.8fde976ea153ec0d.js",
+        "https://criss332.github.io/fmh/runtime.59edf1ce78c7fc5e.js",
+        "https://criss332.github.io/fmh/scripts.69329c267ba9d115.js",
+        "https://criss332.github.io/fmh/styles.560f561cd538ad36.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://criss332.github.io/fmh/assets/icons/icon-128x128.png",
+        "https://criss332.github.io/fmh/assets/icons/icon-144x144.png",
+        "https://criss332.github.io/fmh/assets/icons/icon-152x152.png",
+        "https://criss332.github.io/fmh/assets/icons/icon-192x192.png",
+        "https://criss332.github.io/fmh/assets/icons/icon-384x384.png",
+        "https://criss332.github.io/fmh/assets/icons/icon-512x512.png",
+        "https://criss332.github.io/fmh/assets/icons/icon-72x72.png",
+        "https://criss332.github.io/fmh/assets/icons/icon-96x96.png",
+        "https://criss332.github.io/fmh/color.dae87a04d07ca92b.png",
+        "https://criss332.github.io/fmh/hue.8b1818380241e6ac.png",
+        "https://criss332.github.io/fmh/primeicons.29151a741d66863a.woff",
+        "https://criss332.github.io/fmh/primeicons.5f5d08cd089b4e5d.ttf",
+        "https://criss332.github.io/fmh/primeicons.76044b1c189cc4d7.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://criss332.github.io/fmh/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://criss332.github.io/fmh/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://criss332.github.io/fmh/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://criss332.github.io/fmh/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://criss332.github.io/fmh/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://criss332.github.io/fmh/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://criss332.github.io/fmh/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://criss332.github.io/fmh/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://criss332.github.io/fmh/color.dae87a04d07ca92b.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
+    "https://criss332.github.io/fmh/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://criss332.github.io/fmh/hue.8b1818380241e6ac.png": "f81ae627637a684614aa726e206c73ce099a01fd",
+    "https://criss332.github.io/fmh/index.html": "6f08f203eb08c8d0e9f55d81e15776264fb30f3d",
+    "https://criss332.github.io/fmh/main.1876883f845acc03.js": "ca073620a46a6f4dd136988dc2219bf6b4c6aaa8",
+    "https://criss332.github.io/fmh/manifest.webmanifest": "ad78b5ea77cf93fafa0c855a3597fb97646f0fc1",
+    "https://criss332.github.io/fmh/polyfills.8fde976ea153ec0d.js": "5882a4e460c53716a04d5facba2f491b09561404",
+    "https://criss332.github.io/fmh/primeicons.29151a741d66863a.woff": "21e477ea19e15b66344bcc23b3fbb2161092a707",
+    "https://criss332.github.io/fmh/primeicons.5f5d08cd089b4e5d.ttf": "e6c86ca90a9fb4282fb35523d56fde00e78a1416",
+    "https://criss332.github.io/fmh/primeicons.76044b1c189cc4d7.svg": "621775b2ec555fd2dd152a24390cf6dfeee168b1",
+    "https://criss332.github.io/fmh/runtime.59edf1ce78c7fc5e.js": "4589e1f7e16f01d6d6633f1b3d5032d3341386db",
+    "https://criss332.github.io/fmh/scripts.69329c267ba9d115.js": "fef269ea6f0a287f4cbfff6f0c6df9b545516f9c",
+    "https://criss332.github.io/fmh/styles.560f561cd538ad36.css": "df1f7e20e337033f86e3fe0dbd54393b9abdbc1f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
